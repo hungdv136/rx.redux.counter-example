@@ -8,7 +8,6 @@
 
 import UIKit
 import RxRedux
-import PureLayout
 import RxCocoa
 import RxSwift
 

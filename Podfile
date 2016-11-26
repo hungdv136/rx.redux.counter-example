@@ -1,10 +1,9 @@
 use_frameworks!
 
 target 'counter' do
-    pod 'PureLayout'
     pod 'RxSwift', '~> 3.0'
     pod 'RxCocoa', '~> 3.0'
-    pod 'RxRedux', :git => 'https://github.com/hungdv136/rx.redux.git', :branch => '0.1.0'
+    pod 'RxRedux', :git => 'https://github.com/hungdv136/rx.redux.git'
 end
 
 post_install do |installer|
