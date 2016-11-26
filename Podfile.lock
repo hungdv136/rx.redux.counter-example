@@ -1,0 +1,34 @@
+PODS:
+  - PureLayout (3.0.2)
+  - RxCocoa (3.0.1):
+    - RxSwift (~> 3.0)
+  - RxRedux (0.1.0):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.0.1)
+
+DEPENDENCIES:
+  - PureLayout
+  - RxCocoa (~> 3.0)
+  - RxRedux (from `https://github.com/hungdv136/rx.redux.git`, branch `0.1.0`)
+  - RxSwift (~> 3.0)
+
+EXTERNAL SOURCES:
+  RxRedux:
+    :branch: 0.1.0
+    :git: https://github.com/hungdv136/rx.redux.git
+
+CHECKOUT OPTIONS:
+  RxRedux:
+    :commit: c8aab620f0f370a0f970fd9933b116236dd9cf2f
+    :git: https://github.com/hungdv136/rx.redux.git
+
+SPEC CHECKSUMS:
+  PureLayout: 4d550abe49a94f24c2808b9b95db9131685fe4cd
+  RxCocoa: 15a52fc590dcc700cb4a690a633b5c5184ce3a78
+  RxRedux: 5bcc9d81f4eb9b40e1785e1cd03dcd2e5fcde4ea
+  RxSwift: af5680055c4ad04480189c52d28385b1029493a6
+
+PODFILE CHECKSUM: a6bf2223af8b8d1fab039898bf43c177b46587ea
+
+COCOAPODS: 1.1.1
