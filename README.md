@@ -1,1 +1,1 @@
-# rx.redux.counter-example
+An example for using Redux and ReactiveX in Swift
