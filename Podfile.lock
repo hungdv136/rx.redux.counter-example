@@ -17,7 +17,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   RxRedux:
-    :commit: c8aab620f0f370a0f970fd9933b116236dd9cf2f
+    :commit: 6814e13b574631175c4388b5da6b9f9f96477a8c
     :git: https://github.com/hungdv136/rx.redux.git
 
 SPEC CHECKSUMS:

@@ -25,7 +25,7 @@ final class ResetViewController : UIViewController {
         // MARK: Data Binding
         
         resetButton.rx.tap.asDriver().drive(onNext: { _ in
-            store.dispatch(action: CounterAction.reset)
+            store.dispatch(CounterAction.reset)
         }).addDisposableTo(disposeBag)
     }
     

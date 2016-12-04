@@ -19,11 +19,11 @@ final class CounterViewController: UIViewController {
         // MARK: Actions
         
         decreaseButton.rx.tap.asDriver().drive(onNext: { _ in
-            store.dispatch(action: CounterAction.decrease)
+            store.dispatch(CounterAction.decrease)
         }).addDisposableTo(disposeBag)
         
         increaseButton.rx.tap.asDriver().drive(onNext: { _ in
-            store.dispatch(action: CounterAction.increase)
+            store.dispatch(CounterAction.increase)
         }).addDisposableTo(disposeBag)
         
         
